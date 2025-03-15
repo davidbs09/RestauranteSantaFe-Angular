@@ -4,12 +4,8 @@ import { RouterOutlet } from '@angular/router';
 @Component({
   selector: 'app-root',
   imports: [RouterOutlet],
-  template: `
-    <h1>Welcome to {{title}}!</h1>
-
-    <router-outlet />
-  `,
-  styles: [],
+  templateUrl: './app.component.html',
+  template: `<router-outlet></router-outlet>`
 })
 export class AppComponent {
   title = 'santa-fe-front';
