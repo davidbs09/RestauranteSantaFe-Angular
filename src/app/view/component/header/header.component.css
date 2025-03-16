@@ -4,6 +4,8 @@ nav {
     justify-content: space-around;
     background-color: #f8f9fa;
     padding: 1rem;
+    margin-bottom: 30px;
+    box-shadow: 0 0 10px #7c7c7c;
 }
 
 ul {
