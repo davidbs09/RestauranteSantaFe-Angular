@@ -4,12 +4,14 @@ import { CategoriaCrudComponent } from './view/component/container-crud/categori
 import { ProdutoCrudComponent } from './view/component/container-crud/produto-crud/produto-crud.component';
 import { UsuarioCrudComponent } from './view/component/container-crud/usuario-crud/usuario-crud.component';
 import { AdministradorCrudComponent } from './view/component/container-crud/administrador-crud/administrador-crud.component';
+import { InitialMessageComponent } from './view/component/container-crud/initial-message/initial-message.component';
 
 export const routes: Routes = [
   {
     path: 'crud',
     component: ContainerCrudComponent,
     children: [
+      { path: '', component: InitialMessageComponent },
       { path: 'categoria', component: CategoriaCrudComponent },
       { path: 'produto', component: ProdutoCrudComponent },
       { path: 'usuario', component: UsuarioCrudComponent },

@@ -1,0 +1,34 @@
+.crud-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    width: 100%;
+}
+
+.crud-container ul {
+    display: flex;
+    padding: 0;
+    margin: 0;
+    list-style-type: none;
+}
+
+.crud-container ul li {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+    width: 100px;
+    text-align: center;
+    background-color: #007bff;
+    border: none;
+    margin-right: 20px;
+    list-style: none;
+    border-radius: 6px;
+}
+
+.crud-container ul li:hover {
+    background-color: #cbe1f8;
+    color: #093d75;
+}
