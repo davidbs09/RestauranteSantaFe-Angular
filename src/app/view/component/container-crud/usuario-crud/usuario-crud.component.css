@@ -31,4 +31,5 @@
 .crud-container ul li:hover {
     background-color: #cbe1f8;
     color: #093d75;
+    cursor: pointer;
 }
