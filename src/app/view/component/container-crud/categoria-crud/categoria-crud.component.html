@@ -1,8 +1,6 @@
 <div class="crud-container">
     <h1>CRUD de Categoria</h1>
     <ul>
-        <li>Criar</li>
-        <li>Alterar</li>
-        <li>Deletar</li>
+        <li *ngFor="let categoria of categorias">{{ categoria.nome }}</li>
     </ul>
 </div>
